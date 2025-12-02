@@ -26,3 +26,59 @@ E foi aí que a dúvida surgiu de verdade:
 Com essas perguntas em mente, decidi iniciar este projeto em busca das respostas.
 
 ---
+
+## 🎯 Objetivo do Estudo
+
+O objetivo central deste projeto é identificar padrões, características comuns e elementos estruturais presentes nos times campeões da NBA nos últimos 10 anos.  
+A ideia é responder à pergunta: **o que realmente aproxima equipes tão diferentes ao ponto de todas alcançarem o título?**
+
+Para isso, utilizaremos duas abordagens estatísticas fundamentais:
+
+### 🔹 1. PCA (Principal Component Analysis)
+Aplicaremos PCA para reduzir dezenas de métricas complexas em apenas **2 componentes principais**, permitindo:
+
+- visualizar similaridades entre times em um espaço 2D  
+- identificar grupos naturais (clusters)  
+- entender quais estatísticas diferenciam ou aproximam cada campeão  
+- comparar campeões de épocas e estilos totalmente diferentes
+
+Essa técnica é essencial para revelar padrões que não são óbvios quando analisamos cada métrica isoladamente.
+
+---
+
+### 🔹 2. Z-Score (Padronização Estatística)
+Usaremos o Z-Score para padronizar os dados, transformando todas as métricas em uma escala comparável.  
+Isso permite:
+
+- analisar estatísticas em relação ao contexto da liga a cada temporada  
+- comparar métricas que possuem escalas completamente diferentes  
+- destacar onde o campeão se sobressaiu (valores positivos altos)  
+- identificar fraquezas ou características neutras (valores próximos de 0)
+
+A padronização é crucial para comparar eras e estilos diferentes de jogo.
+
+---
+
+### 🎯 Em resumo, buscamos:
+
+- **descobrir o “DNA estatístico” dos campeões**
+- **entender quais métricas mais diferenciam campeões da média da liga**
+- **ver como o perfil dos campeões evoluiu ao longo da última década**
+- **visualizar essas similaridades e diferenças através de gráficos claros e intuitivos**
+
+Nosso objetivo final é responder, com dados e evidências, **o que realmente torna um time campeão na NBA moderna**.
+
+---
+
+## 🧠 Metodologia — Como Vamos Analisar os Campeões
+
+- explicação dos Four Factors
+- estilo de jogo
+- ritmo
+- shot profile
+- ratings
+- métricas de elenco
+- fórmulas
+- interpretações
+
+---
